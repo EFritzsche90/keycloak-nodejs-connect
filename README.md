@@ -9,6 +9,9 @@ Keycloak is an Open Source Identity and Access Management solution for modern Ap
 This repository contains the source code for the Keycloak Node.js adapter. This module makes it simple to implement a Node.js Connect-friendly
 application that uses Keycloak for its authentication and authorization needs. 
 
+## Enhancements
+* Remove issuer check from grant-manager to enable communication within docker network.
+
 ## Help and Documentation
 
 * [Documentation](https://www.keycloak.org/documentation.html)

@@ -1,9 +1,13 @@
 {
-  "name": "keycloak-connect",
-  "version": "13.0.0-dev",
+  "name": "@ef-company/keycloak-connect",
+  "version": "13.0.1",
   "description": "Keycloak Connect Middleware",
   "homepage": "http://keycloak.org",
   "main": "keycloak.js",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "lint": "jshint *.js stores/*.js middleware/*.js middleware/auth-utils/*.js example/*.js",
     "format": "semistandard",
